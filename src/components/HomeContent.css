@@ -1,0 +1,41 @@
+.logo {
+    animation: spin 60s linear infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+  .outerdiv {
+    animation: ringrotate 60s linear infinite;
+  }
+
+  @keyframes ringrotate {
+    from {
+      transform: rotate(-360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+  .innerlogo {
+    animation: inlogo 20s linear infinite;
+  }
+  @keyframes inlogo {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .innerdiv {
+    animation: indiv 15s linear infinite;
+  }
+  @keyframes indiv {
+    0% {
+      transform: rotate(360deg);
+    }
+  }
